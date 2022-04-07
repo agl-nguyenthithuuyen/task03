@@ -86,22 +86,6 @@ $(document).ready(function(){
     $(".c-bar").toggleClass("c-header__show");
     $(".c-icon__bar").toggleClass("c-icon__show");
   });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  
 });
   console.log('hi guys');

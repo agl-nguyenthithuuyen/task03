@@ -82,6 +82,7 @@ body {
   color: #333;
   font-weight: 500;
   font-family: Sawarabi Mincho;
+
 }
 
 a {
@@ -181,15 +182,14 @@ body {
 }
 
 .l-wrapper {
-  width: 100%;
-  margin: 0 auto;
-  padding: 30px 30px;
-  overflow: hidden;
-  background-image: url(../img/bg-site.png);
-  background-size: 100%;
-  background-repeat: repeat;
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px 30px;
+    overflow: hidden;
+    background-image: url(../img/bg-site.png);
+    background-size: 100%;
+    background-repeat: repeat;
 }
-
 .c-card__show {
   display: none;
 }
@@ -209,25 +209,25 @@ body {
   height: 480px;
   margin: 0 auto;
   border-radius: 60px;
-  background-image: url("/assets/img/mainvisual_ok.jpg");
+  background-image: url("/assets/img/mainvisual.jpg");
   background-position: center center;
   background-size: cover;
 }
 .c-mainvisual__background:before {
-  z-index: 3;
-  position: absolute;
-  top: -12%;
-  left: 50%;
-  width: 1320px;
-  height: 580px;
-  margin: 0 auto;
-  transform: translateX(-49%);
-  background-image: url("/assets/img/bubble_ok.png");
-  background-position: center center;
-  background-size: cover;
-  content: "";
-  opacity: 0.8;
-  transition: all 0.5s linear;
+    z-index: 3;
+    position: absolute;
+    top: -12%;
+    left: 50%;
+    width: 1320px;
+    height: 580px;
+    margin: 0 auto;
+    transform: translateX(-49%);
+    background-image: url("/assets/img/bubble.png");
+    background-position: center center;
+    background-size: cover;
+    content: "";
+    opacity: 0.8;
+    transition: all 0.5s linear;
 }
 
 .c-inner {
@@ -659,7 +659,7 @@ body {
   justify-content: center;
   width: 86px;
   height: 92px;
-  background-image: url("../img/bg-view-more_fix.png");
+  background-image: url("../img/more.png");
   background-repeat: no-repeat;
   color: rgba(255, 254, 254, 0.5);
   font-size: 1.5rem;
@@ -702,10 +702,6 @@ body {
   min-width: 260px;
   height: 110px;
   margin-bottom: 20px;
-  transition: all 0.3s ease-in-out;
-}
-.c-link__item:hover {
-  transform: scale(1.05);
 }
 .c-link__item img {
   width: 100%;
@@ -801,7 +797,7 @@ body {
   margin-bottom: 52px;
   gap: 6px;
   border-radius: 25px;
-  background-image: url("/assets/img/banner1_ok.jpg");
+  background-image: url("/assets/img/banner.jpg");
   background-position: left;
   background-size: cover;
   cursor: pointer;
@@ -821,7 +817,7 @@ body {
   height: 260px;
   margin-top: 100px;
   border-radius: 50px;
-  background-image: url("/assets/img/img_footer_ok.jpg");
+  background-image: url("/assets/img/img.jpg");
   background-position: center;
   background-size: cover;
   cursor: pointer;
@@ -841,8 +837,6 @@ body {
   letter-spacing: 0.16rem;
 }
 .c-wrapper__container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -861,13 +855,11 @@ body {
   margin-left: 85px;
 }
 .c-wrapper__item {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   position: relative;
   margin-bottom: 35px;
   padding-bottom: 32px;
-  border-bottom: 1px solid #1f4242;
+  border-bottom: 1px solid #176b6a;
   cursor: pointer;
 }
 .c-wrapper__banner {
@@ -897,7 +889,7 @@ body {
   font-size: 4.6rem;
   transition: all 0.3s;
 }
-.c-wrapper__semicircle {
+.c-wrapper__hakkayu {
   position: absolute;
   top: 16px;
   left: 14px;
@@ -1321,15 +1313,13 @@ body {
   }
   .p-top .c-leaf__top {
     top: -15px;
-    left: 46%;
-    height: 80px;
-    transform: translateX(-80%);
+    left: 30%;
+    height: 110px;
   }
   .p-top .c-leaf__right {
-    top: 484px;
-    right: -10px;
-    width: 82px;
-    transform: rotate(-9deg);
+    top: 545px;
+    right: -15px;
+    width: 140px;
   }
   .p-top .p-top2 .l-container {
     padding-right: 15px;
@@ -1520,7 +1510,7 @@ body {
     -o-object-fit: cover;
     object-fit: cover;
   }
-  .p-top .p-top4 .c-wrapper__semicircle {
+  .p-top .p-top4 .c-wrapper__hakkayu {
     left: 7px;
     width: 80px;
     height: 17px;
@@ -1531,7 +1521,7 @@ body {
     padding-bottom: 0;
     border-bottom: none;
   }
-  .p-top .p-top4 .c-wrapper__item:checked .c-wrapper__semicircle {
+  .p-top .p-top4 .c-wrapper__item:checked .c-wrapper__hakkayu {
     left: 7px;
   }
   .p-top .p-top4 .c-wrapper__item:checked .c-wrapper__image p {
@@ -1549,7 +1539,7 @@ body {
     justify-content: center;
     margin-top: 20px;
     border-radius: 25px;
-    background-image: url("../img/img_footer_sp.jpg");
+    background-image: url("../img/img_sp.jpg");
     background-position: top;
   }
   .p-top .p-top4 .c-wrapper__bottom p {
@@ -1596,7 +1586,7 @@ body {
     left: 25px;
     font-size: 2.3rem;
   }
-  .p-top .p-top4 .l-container .c-wrapper__semicircle {
+  .p-top .p-top4 .l-container .c-wrapper__hakkayu {
     top: -4px;
     left: 0px;
   }
@@ -1612,8 +1602,6 @@ body {
     line-height: 1.8;
   }
   .p-top .p-top4 .l-container .c-wrapper__inner {
-    -webkit-box-pack: start;
-    -ms-flex-pack: start;
     justify-content: flex-start;
     max-width: 254px;
     height: 254px;
@@ -1640,18 +1628,9 @@ body {
   }
 
   .c-footer .l-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
     padding-top: 58px;
     padding-right: 15px;
@@ -1664,18 +1643,9 @@ body {
     letter-spacing: 0.05rem;
   }
   .c-footer .l-container .c-logo {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
   }
   .c-footer .l-container .c-logo img {
@@ -1686,6 +1656,10 @@ body {
   .c-footer .l-container .c-logo p {
     font-size: 1rem;
   }
+}
+.c-bar__menuicon {
+    width: 90px;
+    height: 90px;
 }
 @media only screen and (min-width: 768px) {
   .sp-only {
@@ -1717,4 +1691,5 @@ body {
     padding-right: 30px;
     padding-left: 30px;
   }
+
 }
