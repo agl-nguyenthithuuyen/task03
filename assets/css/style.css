@@ -198,11 +198,11 @@ body {
   position: relative;
   background: #fff;
 }
-.c-mainvisual {
+.c-main {
   position: relative;
   padding-top: 100px;
 }
-.c-mainvisual__background {
+.c-main__background {
   z-index: 2;
   position: relative;
   max-width: 1120px;
@@ -213,7 +213,7 @@ body {
   background-position: center center;
   background-size: cover;
 }
-.c-mainvisual__background:before {
+.c-main__background:before {
     z-index: 3;
     position: absolute;
     top: -12%;
@@ -295,10 +295,10 @@ body {
   font-size: 2.4rem;
   text-decoration: none;
   word-spacing: 0.8rem;
-  transition: all 0.3s;
+  /* transition: all 0.3s; */
 }
 .c-button:hover {
-  transform: scale(1.1);
+  /* transform: scale(1.1); */
   color: white;
 }
 
@@ -1253,17 +1253,17 @@ body {
     padding-left: 15px;
   }
 
-  .p-top .p-top1 .c-mainvisual {
+  .p-top .p-top1 .c-main {
     padding-top: 0px;
   }
-  .p-top .p-top1 .c-mainvisual__background {
+  .p-top .p-top1 .c-main__background {
     max-width: 315px;
     height: 580px;
     border-radius: 20px;
     background-image: url("../img/background_res.jpg");
     background-position: bottom;
   }
-  .p-top .p-top1 .c-mainvisual__background::before {
+  .p-top .p-top1 .c-main__background::before {
     display: none;
   }
   .p-top .p-top1 .c-inner {
