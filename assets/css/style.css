@@ -207,7 +207,7 @@ body {
     height: 480px;
     margin: 0 auto;
     border-radius: 60px;
-    background-image: url("/assets/img/mainvisual.jpg");
+    background-image: url("/~aglstaff/thuuyen/task03/assets/img/mainvisual.jpg");
     background-position: center center;
     background-size: cover;
 }
@@ -475,7 +475,7 @@ body {
 
 .c-leaf__top {
     z-index: 10;
-    position: fixed;
+    position: absolute;
     top: -30px;
     left: 40%;
     height: 213px;
@@ -485,7 +485,7 @@ body {
 }
 .c-leaf__right {
     z-index: 10;
-    position: fixed;
+    position: absolute;
     top: 440px;
     right: -30px;
     width: 234px;
@@ -642,7 +642,7 @@ body {
 .c-list__btn {
     z-index: 10;
     padding: 12px 34px;
-    background-image: url(/assets/img/header_nav.png);
+    background-image: url(/~aglstaff/thuuyen/task03/assets/img/header_nav.png);
     color: #fff;
     font-size: 1.6rem;
     text-align: center;
@@ -796,7 +796,7 @@ body {
     margin-bottom: 52px;
     gap: 6px;
     border-radius: 25px;
-    background-image: url("/assets/img/banner.jpg");
+    background-image: url("/~aglstaff/thuuyen/task03/assets/img/banner.jpg");
     background-position: left;
     background-size: cover;
     cursor: pointer;
@@ -816,7 +816,7 @@ body {
     height: 260px;
     margin-top: 100px;
     border-radius: 50px;
-    background-image: url("/assets/img/img.jpg");
+    background-image: url("/~aglstaff/thuuyen/task03/assets/img/img.jpg");
     background-position: center;
     background-size: cover;
     cursor: pointer;
@@ -936,6 +936,12 @@ body {
     object-fit: cover;
     transform: translateY(-50%);
     transition: all 0.3s ease-in-out;
+}
+
+.test {
+    top: 300px;
+    position: absolute;
+    transition-timing-function: ease;
 }
 
 @media only screen and (max-width: 768px) {
@@ -1427,7 +1433,6 @@ body {
         padding-left: 10px;
     }
     .p-top .c-link__list {
-        -ms-flex-pack: distribute;
         justify-content: space-around;
         margin-top: 20px;
         margin-bottom: 26px;
@@ -1508,7 +1513,6 @@ body {
     }
     .p-top .p-top4 .c-wrapper__toggle1 img, .p-top .p-top4 .c-wrapper__toggle2 img, .p-top .p-top4 .c-wrapper__toggle3 img {
         height: 15px;
-        -o-object-fit: cover;
         object-fit: cover;
     }
     .p-top .p-top4 .c-wrapper__hakkayu {
@@ -1555,7 +1559,6 @@ body {
     }
     .p-top .p-top4 .c-wrapper__container img {
         height: 35px;
-        -o-object-fit: cover;
         object-fit: cover;
     }
     .p-top .p-top4 .c-wrapper__container img:first-of-type {
@@ -1607,7 +1610,7 @@ body {
         max-width: 254px;
         height: 254px;
         margin: 0 auto;
-        background-image: url("/assets/img/banner1_sp.png");
+        background-image: url("/~aglstaff/thuuyen/task03/assets/img/banner1_sp.png");
         background-position: bottom;
     }
     .p-top .p-top4 .l-container .c-wrapper__inner h3 {

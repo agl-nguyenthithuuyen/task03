@@ -2,24 +2,24 @@
 <html lang="ja">
 
 <head>
-  <!-- 対策系 -->
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="format-detection" content="telephone=no">
-  <!-- SEO -->
-  <title>ネームサイト</title>
-  <meta name="description" content="ページの詳細、120字以内に収める。最初の40字は大事。ページごとにそのページの詳細を記載する。">
-  <meta name="keywords" content="">
-  <!-- ファビコンの読み込み -->
-  <link rel="icon" href="favicon.ico">
-  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-152x152.png">
-  <!-- Favicon -->
-  <link rel="shortcut icon" type="image/png" href="favicon.png">
-  <!-- 書き出したcssの読み込み -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-  <link rel="stylesheet" href="./assets/css/style.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- 対策系 -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <!-- SEO -->
+    <title>ネームサイト</title>
+    <meta name="description" content="ページの詳細、120字以内に収める。最初の40字は大事。ページごとにそのページの詳細を記載する。">
+    <meta name="keywords" content="">
+    <!-- ファビコンの読み込み -->
+    <link rel="icon" href="favicon.ico">
+    <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-152x152.png">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+    <!-- 書き出したcssの読み込み -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 
 <body>    
@@ -53,9 +53,7 @@
                                 <a class="c-button" href="#">ハッカ ? ミント ?</a>
                             </div>
                         </div>
-                        <div class="c-main__bubble pc-only" id="example2">
-                            <img src="/assets/img/bubble.png" alt="iconBubble">
-                        </div>
+                        <div class="c-main__bubble pc-only" id="example2"><img src="./assets/img/bubble.png" alt="iconBubble"></div>
                     </div>
                 </div>
                 <script>
@@ -70,16 +68,26 @@
                                 animate_examp();
                             });
                     }
-                    $(function() { animate_examp(); } );
+                    $(function() { 
+                        animate_examp();
+                    } );
+                </script>
+                <script>                    
+                    $(document).ready(function() {
+                        $(window).scroll(function() {
+                            if ($(document).scrollTop() < 500) {
+                                $("c-main__bubble").addClass("test");
+                            } else {
+                                $("c-main__bubble").removeClass("test");
+                            }
+                        })
+                    })                    
                 </script>
             </section>
             <section class="p-product" id="p-product">
                 <div class="l-container">
                     <div class="p-product__inner">
-                        <div class="p-product__top">
-                            <p>使い方いろいろ</p>
-                            <h2>毎日にハッカ油</h2>
-                        </div>
+                        <div class="p-product__top"><p>使い方いろいろ</p><h2>毎日にハッカ油</h2></div>
                         <div class="p-product__list">
                             <div class="p-product__item">
                                 <div class="p-product__img">
@@ -89,9 +97,7 @@
                                 <h3 class="p-product__title"><a href="#"> ハッカ水</a></h3>
                             </div>
                             <div class="p-product__item">
-                                <div class="p-product__img">
-                                    <img src="./assets/img/sp2.png" alt="sanpham">
-                                </div>
+                                <div class="p-product__img"><img src="./assets/img/sp2.png" alt="sanpham"></div>
                                 <h3 class="p-product__title"><a href="#">ハッカの虫除けスプレー</a></h3>
                             </div>
                             <div class="p-product__item">
@@ -120,15 +126,11 @@
                                 <h3 class="p-product__title"><a href="#">ハッカマスク</a></h3>
                             </div>
                             <div class="p-product__item">
-                                <div class="p-product__img">
-                                    <img src="./assets/img/sp7.png" alt="sanpham">
-                                </div>
+                                <div class="p-product__img"><img src="./assets/img/sp7.png" alt="sanpham"></div>
                                 <h3 class="p-product__title"><a href="#">ハッカで安息</a></h3>
                             </div>
                             <div class="p-product__item">
-                                <div class="p-product__img">
-                                    <img src="./assets/img/sp8.png" alt="sanpham">
-                                </div>
+                                <div class="p-product__img"><img src="./assets/img/sp8.png" alt="sanpham"></div>
                                 <h3 class="p-product__title"><a href="#">ハッカの入浴剤</a></h3>
                             </div>
                         </div>
@@ -536,9 +538,7 @@
                                 </div>
                                 <img class="c-next__icon c-hide" src="./assets/img/icon_right.png" alt="iconRight">
                             </div>
-                            <div class="c-wrapper__toggle9">
-                                <img class="c-icon__show" src="./assets/img/icon_show.png" alt="iconShow">
-                            </div>
+                            <div class="c-wrapper__toggle9"><img class="c-icon__show" src="./assets/img/icon_show.png" alt="iconShow"></div>
                             <div class="c-wrapper__item c-hide">
                                 <div class="c-wrapper__card">
                                     <div class="c-wrapper__detail">
@@ -559,9 +559,7 @@
                                 </div>
                                 <img class="c-next__icon c-hide" src="./assets/img/icon_right.png" alt="iconRight">
                             </div>
-                            <div class="c-wrapper__toggle10">
-                                <img class="c-icon__show" src="./assets/img/icon_show.png" alt="iconShow">
-                            </div>
+                            <div class="c-wrapper__toggle10"><img class="c-icon__show" src="./assets/img/icon_show.png" alt="iconShow"></div>
                             <div class="c-wrapper__item c-hide">
                                 <div class="c-wrapper__card">
                                     <div class="c-wrapper__detail">
@@ -570,10 +568,7 @@
                                             <img class="c-wrapper__hakkayu" src="./assets/img/hakkayu.png" alt="iconHakkayu">
                                             <p>01</p>
                                         </div>
-                                        <div class="c-wrapper__heading">
-                                            <p>害虫も怖くない</p>
-                                            <h3>さわやかハッカ油で虫除け対策！</h3>
-                                        </div>
+                                        <div class="c-wrapper__heading"><p>害虫も怖くない</p><h3>さわやかハッカ油で虫除け対策！</h3></div>
                                     </div>
                                     <div class="c-wrapper__description1">
                                         ハッカ油の清涼感ある香りは人間には心地良いですが、多くの害虫は大の苦手。この性質を利用して、安心安全な天然の虫除け剤を手作りしてみましょう。身体に直接湿布するのはもちろん、網戸にシュッと一噴きしたり、キッチンの水回りなどに液剤を染み込ませたコットンを置いたりと、さまざまな用途に使えます。
@@ -582,9 +577,7 @@
                                 </div>
                                 <img class="c-next__icon c-hide" src="./assets/img/icon_right.png" alt="iconRight">
                             </div>
-                            <div class="c-wrapper__toggle11">
-                                <img class="c-icon__show" src="./assets/img/icon_show.png" alt="iconShow">
-                            </div>
+                            <div class="c-wrapper__toggle11"><img class="c-icon__show" src="./assets/img/icon_show.png" alt="iconShow"></div>
                         </div>
                         <div class="c-wrapper__bottom" id="banner-bottom">
                             <div class="c-wrapper__container">
@@ -593,7 +586,7 @@
                                 <img src="./assets/img/home3.png" alt="home3">
                                 <img src="./assets/img/home4.png" alt="home4">
                             </div>
-                            <p>LIVING INFORMATION </p>
+                            <p>LIVING INFORMATION</p>
                             <h5>さわやかハッカ油で虫除け対策のイメージ写真</h5>
                         </div>
                     </div>
@@ -602,12 +595,8 @@
         </main>
         <footer class="c-footer">
             <div class="l-container">
-                <div class="c-address">
-                    <p>商品に関するお問い合わせは</p>
-                    <p>健栄製薬株式会社</p>
-                    <p>TEL | 06-6231-5626　受付時間 |｜8:45〜17:30(土日祝日を除く)</p>
-                </div>
-                <a class="c-logo" href="#"><img src="/assets/img/logo_kenei.png" alt="iconlogo"><p>&copy;KENEI Pharmaceutical</p></a>
+                <div class="c-address"><p>商品に関するお問い合わせは</p><p>健栄製薬株式会社</p><p>TEL | 06-6231-5626　受付時間 |｜8:45〜17:30(土日祝日を除く)</p></div>
+                <a class="c-logo" href="#"><img src="./assets/img/logo_kenei.png" alt="iconlogo"><p>&copy;KENEI Pharmaceutical</p></a>
             </div>
         </footer>
     </div>
